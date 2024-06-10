@@ -1,6 +1,8 @@
 # dotnet-console-sandbox
 
 ## gen-hash-test
+Generate a SHA256 hash 10 times.
+
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/nhs-tkawasaki/dotnet-console-sandbox/tree/get-hash-test)
 ```
 cd MyConsoleApp
