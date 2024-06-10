@@ -5,5 +5,4 @@
         "terminal.integrated.shell.linux": "/bin/bash"
     },
     "postCreateCommand": "dotnet restore ./MyConsoleApp/MyConsoleApp.csproj",
-    "workspaceFolder": "/workspace/MyConsoleApp"
 }
