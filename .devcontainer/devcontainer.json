@@ -1,0 +1,9 @@
+{
+    "name": "C# .NET Codespace",
+    "image": "mcr.microsoft.com/dotnet/sdk:8.0",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "dotnet restore ./MyConsoleApp/MyConsoleApp.csproj",
+    "workspaceFolder": "/workspace/MyConsoleApp"
+}
