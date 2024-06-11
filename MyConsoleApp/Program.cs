@@ -21,7 +21,6 @@ Parallel.ForEach(Enumerable.Range(0, N), i => {
 sw.Stop();
 
 Console.WriteLine(flag ? "static" : "instance");
-;
 var distinct = bag.Select(b => BitConverter.ToString(b)).Distinct().ToArray();
 foreach (var b in distinct) {
     Console.WriteLine(b);
